@@ -1,6 +1,6 @@
 # advance_flutter_ch1
 
-<h1 align="center">Ligth & Dark Theme</h1>
+<h1 align="center">🔶🔸Ligth & Dark Theme🔸🔶</h1>
 <center>
 <p>
  
