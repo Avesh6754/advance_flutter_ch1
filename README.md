@@ -1,7 +1,9 @@
 # advance_flutter_ch1
 
 <h1 align="center">🔶🔸Ligth & Dark Theme🔸🔶</h1>
+
 # Light and Dark Theme Switching in Flutter
+
 This project demonstrates the implementation of a dynamic light and dark theme switcher in a Flutter application. The app allows users to switch seamlessly between light and dark modes, providing a smooth and visually appealing user experience. The theme change is persistent across sessions, ensuring the selected mode is retained even after restarting the app.
 
 ## Features:
