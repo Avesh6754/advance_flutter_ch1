@@ -14,44 +14,14 @@ Maintains user preference using local storage.
 
 ```dart
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
 
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: (isDark)?ThemeMode.dark:ThemeMode.light,
-      home: Scaffold(
-        body: Padding(
-          padding: const EdgeInsets.all(5.0),
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text('Theme Change',style: TextStyle(fontSize: 30),),
-                Switch(value: isDark,onChanged: (value) {
-                  setState(() {
-                    isDark=value;
-                  });
-                },),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
+      home: Scaffold());
+ 
 bool isDark=false;
 ```
 <center>
